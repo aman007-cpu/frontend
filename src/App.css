@@ -1,12 +1,188 @@
-.App {
+
+  
+  .nav-ul li{
+ text-align: center; 
+ margin-left: 20px; 
+display: inline-block;
+padding: 10px;
+font-size: larger;
+}
+.nav-ul{
+  
+  padding: 5px;
+  background-color: #282c34;
+  margin: 0;
+}
+.nav-ul li a{
+  text-decoration: darkorchid;
+  color: azure;
+  padding: 5px;
+}
+.nav-ul li a:hover{
+  color: aqua;
+ 
+}
+.ecom{
+  width: 50px;
+  height: 45px;
+   margin-top: 3px;
+   margin-left: 10px;
+  border-radius: 50%;
+  float: left;
+}
+
+.register{
+  margin-top: 5%;
+  margin-left: 30%;
+  width: 400px;
+  height: 350px;
   text-align: center;
+  color: aqua;
+  background-color: #282c34;
+  border: 2px solid yellow;
+  border-radius: 20px;
+}
+.addprod{
+  margin-top: 2%;
+  margin-left: 35%;
+  width: 400px;
+  height: 480px;
+  text-align: center;
+  color: aqua;
+  background-color: #282c34;
+  border: 2px solid yellow;
+  border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputbox{
+  padding: 10px;
+  border: 1px solid burlywood;
+  display: block;
+  width: 300px;
+  border-radius: 5px;
+  outline: none;
+  margin: 20px;
+  margin-left:40px;
+}
+.appbtn{
+  margin: 20px;
+
+  width: 150px;
+  padding: 10px;
+
+  color: #61dafb;
+  background-color: rgb(0, 0, 0);
+  border: solid 1px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.invalid-input{
+  display: block;
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.login{
+  margin-top: 5%;
+  margin-left: 30%;
+  width: 400px;
+  height: 320px;
+  text-align: center;
+  color: aqua;
+  background-color: #282c34;
+  border: 2px solid yellow;
+  border-radius: 20px;
+}
+.log{
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  text-shadow: #8cc508;
+  
+}
+.log:hover{
+  color: aqua;
+}
+.nav-right{
+  text-align: right;
 }
 
+.product-list{
+  text-align: center;
+  justify-content: center;
+  border: 1px solid white;
+  background-color: #282c34;
+  margin-top: 20px;
+  margin-left: 20%;
+  border-radius: 20px;
+  color: aqua;
+  margin-right: 20%;
+  
+}
+.product-list ul li{
+  display: inline-block;
+  border: 1.2px solid yellow;
+  padding: 5px;
+  width: 150px;
+  color: aqua;
+}
+.del{
+  outline: none;
+  border-radius: 30%;
+ margin-left: 10px;
+}
+.del:hover{
+  background-color: rgb(1, 29, 53);
+}
+.delbtn{
+  color: rgb(246, 252, 252);
+  background-color:  rgb(1, 29, 53);
+  border: none;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.delbtn:hover{
+  background-color: rgb(1, 47, 47);
+  color: red;
+ 
+}
+.search{
+  width: 400px;
+   margin-bottom: 10px;
+    height: 30px;
+    border: 1px solid rgb(195, 241, 11);
+    outline: none;
+    border-radius: 3rem;
+    text-align: center;
+ 
+}
+.upd{
+  border: 2px solid rgb(1, 29, 53);
+  font-size: 16px;
+  background-color: rgb(1, 29, 53) ;
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  margin-left: 2px;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+.upd:hover{
+  background-color: rgb(11, 47, 47);
+  color: rgb(255, 234, 5);
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  background-color: #17181b;
+  width: 100%;
+  text-align: center;
+  color:rgb(18, 235, 206);
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
