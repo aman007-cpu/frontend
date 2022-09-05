@@ -46,7 +46,7 @@ const Addproduct =()=>{
             <input className="inputbox" type="text" placeholder='Enter Product Company'
                value={company} onChange={(e)=>{setCompany(e.target.value)}}/>
              { error && !company &&<span className="invalid-input">Enter valid company</span>}
-            <button onClick={addProduct} className="appbtn" >Add Product</button>
+            <button onClick={addProduct} className="app1btn" >Add Product</button>
         </div>
     )
 }

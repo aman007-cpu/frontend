@@ -30,14 +30,15 @@ const Login =()=>{
       }
     }
     return(
-        <div className="login">
-             <h1>Login</h1>
-             <input  className="inputbox" type="text" placeholder='Enter your email Id'
+        <div className="register">
+             <form className="regis-container">
+            <h1 className="title-reg">Login</h1>
+               <input  className="inputbox" type="text" placeholder='Enter your email Id'
              onChange={(e)=>setEmail(e.target.value)} value={email}/>
              <input  className="inputbox" type="password" placeholder='Enter your Password'
              onChange={(e)=>setPassword(e.target.value)} value={password}/>
              <button onClick={handlelogin} className="appbtn" type="button">Login</button>
-        
+            </form>
         </div>
     )
 }

@@ -54,7 +54,7 @@ const Updateproduct =()=>{
               value={category}  onChange={(e)=>{setCategory(e.target.value)}}/>
             <input className="inputbox" type="text" placeholder='Enter Product Company'
                value={company} onChange={(e)=>{setCompany(e.target.value)}}/>
-            <button onClick={updateproduct} className="appbtn" >Update Product</button>
+            <button onClick={updateproduct} className="app1btn" >Update Product</button>
         </div>
     )
 }

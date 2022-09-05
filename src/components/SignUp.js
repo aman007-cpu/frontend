@@ -30,7 +30,8 @@ const SignUp=()=>{
 
     return(
         <div className="register">
-            <h1>
+            <form className="regis-container">
+            <h1 className="title-reg">
                 Register
             </h1>
             <input className="inputbox" type="text" placeholder="Enter Your Name"
@@ -42,7 +43,7 @@ const SignUp=()=>{
             <input className="inputbox" type="Password" placeholder="Enter a Password"
              value={password} onChange={(e)=>setPassword(e.target.value)}/>
             <button onClick={collectData} className="appbtn" type="button">SignUp</button>
-        
+            </form>
         </div>
     )
 }
